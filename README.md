@@ -1,1 +1,1 @@
-# Mailman for elmah.ioMail app for elmah.io that sends an email every time a new error is logged.
+# Mailman for elmah.io[![Build status](https://ci.appveyor.com/api/projects/status/0r2od7tck9vu8o71?svg=true)](https://ci.appveyor.com/project/ThomasArdal/elmah-io-apps-mailman)[![NuGet](https://img.shields.io/nuget/vpre/elmah.io.apps.mailman.svg)](https://www.nuget.org/packages/elmah.io.apps.mailman)Mail app for elmah.io that sends an email every time a new error is logged.
