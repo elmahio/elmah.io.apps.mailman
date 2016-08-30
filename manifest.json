@@ -1,0 +1,18 @@
+{
+	"variables": [{
+		"key": "email",
+		"name": "Email",
+		"description": "The email address to send the mail to",
+		"example": "info@elmah.io",
+		"type": "text",
+		"required": true
+	}],
+	"rule": {
+		"title": "Send an email when a new error is logged",
+		"query": "(severity:Error OR severity:Fatal) AND isNew:true",
+		"then": {
+			"type": "email",
+			"email": "$email"
+		}
+	}
+}
