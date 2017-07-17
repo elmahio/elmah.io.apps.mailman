@@ -9,7 +9,7 @@
 	}],
 	"rule": {
 		"title": "Send an email when a new error is logged",
-		"query": "(severity:Error OR severity:Fatal) AND isNew:true",
+		"query": "(isNew:true AND (severity:Error OR severity:Fatal)) OR applicationName:\"Uptime Monitoring\"",
 		"then": {
 			"type": "email",
 			"email": "$email"
