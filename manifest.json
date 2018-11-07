@@ -1,4 +1,5 @@
 {
+	"helpUrl": "https://docs.elmah.io/elmah-io-apps-mailman/",
 	"variables": [{
 		"key": "email",
 		"name": "Email",
