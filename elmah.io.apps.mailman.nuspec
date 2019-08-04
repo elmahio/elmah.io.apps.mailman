@@ -8,9 +8,10 @@
     <title>Mailman (deprecated)</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Sends an email every time a new error is logged. Deprecated: use the New Error Email to make sure that users timezone is taken into account.</description>
-    <projectUrl>https://github.com/elmahio/elmah.io.apps.mailman</projectUrl>
+    <projectUrl>https://elmah.io/</projectUrl>
+    <repository type="git" url="https://github.com/elmahio/elmah.io.apps.mailman" />
     <iconUrl>https://elmah.io/images/appstore/elmah.io.apps.mailman.png</iconUrl>
-	<tags>Error Exception Reporting Management Logging ELMAH Diagnostics Tracing</tags>
+    <tags>Error Exception Reporting Management Logging ELMAH Diagnostics Tracing</tags>
   </metadata>
   <files>
     <file src="manifest.json" target="manifest.json" />
