@@ -6,6 +6,7 @@
     <owners>elmah.io</owners>
     <id>elmah.io.apps.mailman</id>
     <title>Mailman (deprecated)</title>
+    <license type="expression">Apache-2.0</license>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Sends an email every time a new error is logged. Deprecated: use the New Error Email to make sure that users timezone is taken into account.</description>
     <projectUrl>https://elmah.io/</projectUrl>
